@@ -18,7 +18,13 @@ const routes = {
   "cloudsmith.mmccoo.cc": "https://docker.cloudsmith.io",
 
   // staging
-  "docker-staging.lixd.xyz": dockerHub,
+  "docker.mmccoo.cc": dockerHub,
+  "quay.mmccoo.cc": "https://quay.io",
+  "gcr.mmccoo.cc": "https://gcr.io",
+  "k8s-gcr.mmccoo.cc": "https://k8s.gcr.io",
+  "k8s.mmccoo.cc": "https://registry.k8s.io",
+  "ghcr.mmccoo.cc": "https://ghcr.io",
+  "cloudsmith.mmccoo.cc": "https://docker.cloudsmith.io",
 };
 
 function routeByHosts(host) {
