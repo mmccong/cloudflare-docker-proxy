@@ -18,7 +18,7 @@ routes = [
   { pattern = "gcr.mmccoo.cc", custom_domain = true },
   { pattern = "k8s-gcr.mmccoo.cc", custom_domain = true },
   { pattern = "k8s.mmccoo.cc", custom_domain = true },
-  { pattern = "ghcr.mmccoo.cc, custom_domain = true },
+  { pattern = "ghcr.mmccoo.cc", custom_domain = true },
   { pattern = "cloudsmith.mmccoo.cc", custom_domain = true },
 ]
 
